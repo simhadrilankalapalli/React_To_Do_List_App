@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.App{
+    text-align: center;
+}
+body{
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */                         
+}
+
+#emptylist {
+    text-align: center;
+    color: #e74c3c; /* Secondary Color */
+    font-size: 25px;
+}
+
+.outerdiv {
+    margin: 50px;
+    border-radius: 5px;
+    background-color: #3498db; /* Primary Color */
+    padding: 20px 20px 0px 20px;
+}
+
+.container1 {
+    background-color: #ffffff;
+    margin: 50px 300px 0px 300px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 15px 0px rgb(75, 74, 74);
+}
+
+.header {
+    text-align: center;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#message {
+    padding: 5px 5px;
+    text-align: center;
+    margin: 30px 50px 10px 35%;
+    font-size: medium;
+    border: 0px;
+    background-color: #ecf0f1; /* Input/Interactive Element Color */
+    transition: 0.2s;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#message:hover {
+    background-color: #d5dde5; /* Slightly darker gray for hover */
+}
+
+input::placeholder {
+    font-weight: 700;
+    color: #2c3e50; /* Text Color */
+}
+
+.add {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 1px;
+    cursor: pointer;
+    background-color: #3498db; /* Primary Color */
+    transition: 0.2s;
+    font-size: medium;
+}
+
+.add:hover {
+    background-color: #2980b9; /* Darker blue for hover */
+    color: #ffff;
+}
+
+#save {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 4px 8px;
+    font-size: medium;
+    border: 1px;
+    border-radius: 7px;
+    background-color: #3498db; /* Primary Color */
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#save:hover {
+    background-color: #2980b9; /* Darker blue for hover */
+}
+
+.container2 {
+    background-color: #f0f4f8; /* Background Color */
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.container3 {
+    text-decoration: none;
+    text-align: center;
+}
+
+#ol {
+    color: #2c3e50; /* Text Color */
+    font-weight: 700;
+}
+
+#ol li {
+    border: 1px solid #ecf0f1; /* Input/Interactive Element Color */
+}
+
+#span {
+    padding: 100px 20px 20px 10px;
+    margin: 10px;
+    font-weight: 700;
+    font-size: larger;
+    color: #2c3e50; /* Text Color */
+}
+
+#edit {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 4px 8px;
+    font-size: medium;
+    border: 1px;
+    border-radius: 7px;
+    background-color: #3498db; /* Primary Color */
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px 0px rgb(75, 74, 74);
+}
+
+#edit:hover {
+    background-color: #2980b9; /* Darker blue for hover */
+    color: #ffff;
+}
+
+#delete {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px;
+    padding: 4px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: medium;
+    background-color: #e74c3c; /* Secondary Color */
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgb(75, 74, 74);
+}
+
+#delete:hover {
+    background-color: #c0392b; /* Darker red for hover */
+    color: #ffff;
+}
+
